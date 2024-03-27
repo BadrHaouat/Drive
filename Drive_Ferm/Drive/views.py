@@ -18,8 +18,6 @@ def contactUs(request):
 
 
 # Create your views here.
-from distutils.log import error
-import email
 
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
